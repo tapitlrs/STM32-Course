@@ -1,6 +1,0 @@
-Bai tap 1: Thuc hien nhap 1 ky tu tu ban phim, ky tu duoc nhap phai thuoc bang chu cai (a den z) va phai la ky tu khong in hoa. Bat ky ky tu nao khac khong thuoc yeu cau tren se duoc xem la khong hop le. Yeu cau bai toan:
-- In len man hinh ky tu in hoa cua ki tu vua nhan duoc. Vi du nhap 'a' thi se hien thi 'A' (goi y: bang ma ASCII). 
-- Neu nguoi dung nhap ky tu 'T' (in hoa) thi in len man hinh chuoi "TAPIT" (goi y: lenh dieu kien).
-- In so lan nguoi dung da nhap hop le
-- Neu nguoi dung da nhap 10 ky tu hop le thi thuc hien hien thi tat ca cac ky tu da nhap. Sau do thuc hien tinh lai tu dau (goi y: Mang ki tu). 
-- Trong truong hop nguoi dung nhap ky tu khong hop le thi in len man hinh thong bao nhap khong hop le, vui long nhap lai (goi y: vong lap vo han).
