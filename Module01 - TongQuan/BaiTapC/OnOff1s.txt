@@ -1,0 +1,1 @@
+Bai tap 2: Thuc hien chuong trinh de in len man hinh chuoi "LED ON" va "LED OFF" xen ke nhau moi giay mot lan. Neu nhu o thoi diem hien tai dong "LED ON" da duoc hien thi thi mot giay sau, man hinh se hien thi dong "LED OFF" va nguoc lai, qua trinh tren se duoc lap lai lien tuc. Luu y chuoi "LED ON" va "LED OFF" nen duoc hien thi o cac dong rieng biet.

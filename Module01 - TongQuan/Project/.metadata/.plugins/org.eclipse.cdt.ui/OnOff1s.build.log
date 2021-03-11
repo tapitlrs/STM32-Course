@@ -1,0 +1,20 @@
+17:22:12 **** Incremental Build of configuration Debug for project OnOff1s ****
+make -j6 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F303xE -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "OnOff1s.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\Git_TAPIT\TRAINING\STM32\Module01 - TongQuan\Project\OnOff1s\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="OnOff1s.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: OnOff1s.elf
+ 
+arm-none-eabi-objdump -h -S  OnOff1s.elf  > "OnOff1s.list"
+arm-none-eabi-objcopy  -O binary  OnOff1s.elf  "OnOff1s.bin"
+arm-none-eabi-size   OnOff1s.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7372	     20	   1572	   8964	   2304	OnOff1s.elf
+Finished building: default.size.stdout
+ 
+Finished building: OnOff1s.bin
+ 
+Finished building: OnOff1s.list
+ 
+
+17:22:13 Build Finished. 0 errors, 0 warnings. (took 819ms)
+
